@@ -1,5 +1,5 @@
 <?php
-    require '../configuration/database.php';
+  /*  require '../configuration/database.php';
 
     $query = "SELECT * FROM problem_of_the_week_admin ORDER BY id DESC LIMIT 1";
 
@@ -17,4 +17,4 @@
     //Close the connection
     mysqli_close($connec);
 
-?>
+*/?>
