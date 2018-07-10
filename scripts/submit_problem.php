@@ -1,5 +1,5 @@
 <?php 
-    require '../configuration/database.php';
+   /* keval require '../configuration/database.php';
 
     $question_id = $_POST['id'];
     $name = $_POST['name'];
@@ -16,12 +16,12 @@
     //echo json_encode(array("result" => mysqli_num_rows($result)));   
 
     if(mysqli_num_rows($result) > 0) {
-        /*$query = "SELECT score from problem_of_the_week where email_student='$email'";
+     keval//   /*$query = "SELECT score from problem_of_the_week where email_student='$email'";
         $result = mysqli_query($connec, $query);
         //echo json_encode(array("result" => mysqli_fetch_all($result, MYSQLI_ASSOC)));
 
         $score = mysqli_fetch_all($result, MYSQLI_ASSOC);*/
-        echo "not new user";
+      /*  echo "not new user";
         $correct_option = '';
         $query = "SELECT correct_option from problem_of_the_week_admin where id=$question_id";
         //echo $query;
@@ -42,11 +42,11 @@
             }
         }
         //print_r($correct_option);
-        /*$temp = mysqli_fetch_assoc($res, MYSQLI_ASSOC);
-        echo json_encode($temp);*/
-        
-        //json_encode($score)['score'] = json_encode($score)['score'] + 5; 
-    } else {
+       // /*$temp = mysqli_fetch_assoc($res, MYSQLI_ASSOC);
+     //   echo json_encode($temp);*/
+     //   
+     //   //json_encode($score)['score'] = json_encode($score)['score'] + 5; 
+ /*keval   } else {
         $query = "INSERT INTO problem_of_the_week (name_of_student, email_student, phone_number, score) VALUES ('$name', '$email', $mobile, $score)";
 
         if(mysqli_query($connec, $query)) {
@@ -72,5 +72,5 @@
                 echo "plus 5 new";
             }
         }
-    } 
+    } */
 ?>
