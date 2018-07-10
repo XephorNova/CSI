@@ -1,11 +1,11 @@
-<?php //keval /*
+ //keval /*
 
 <!--keval<head>
     <title>Blog - CSI</title>
 </head> keval-->
 <?php // keval include('../layout/header.php') ?>
 
-    <div class="container mt-4">
+   <!-- <div class="container mt-4">
     <form id="problem_submit">
         <div class="wrap-problem"></div>
             <div class="row">
@@ -28,6 +28,6 @@
                 </div>
             </div>
         </form>
-    </div>
+    </div>-->
 
-<?php // keval include('../layout/footer.php') ?>  keval*/ ?>
+<?php // keval include('../layout/footer.php') ?>  
