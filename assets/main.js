@@ -114,7 +114,7 @@ if(window.location.pathname.indexOf('/admin') > 0) {
 }
 
 /* STILL UNDER CONSTRUCTION. DO NOT TOUCH. */
-if(window.location.pathname.indexOf('/create_a_problem.php') > 0) {
+/*if(window.location.pathname.indexOf('/create_a_problem.php') > 0) {
     $('#problem_form').on('submit', (e) => {
         e.preventDefault();
         //console.log($('#problem_form').serialize());
@@ -184,7 +184,7 @@ if(window.location.pathname.indexOf('/problem.php') > 0) {
             }
         })
     });
-}
+}*/
 
 if(window.location.pathname.indexOf('/email.php') > 0) {
     $("#suggest_form").on("submit", (e) => {
